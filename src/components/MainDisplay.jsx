@@ -11,7 +11,8 @@ import { MainSubCard } from './MainSubCard.jsx'
 export function MainDisplay(props) {
 	return (
 		<div className='mt-6 px-4 md:col-span-2'>
-			<div className='bg-no-repeat bg-cover bg-[url(src/assets/images/bg-today-small.svg)] md:bg-[url(src/assets/images/bg-today-large.svg)] h-70 rounded-lg md:h-64 md:flex md:flex-row md:items-center md:justify-center md:text-center md:justify-between'>
+		{/*<div className='bg-no-repeat bg-cover bg-[url(src/assets/images/bg-today-small.svg)] md:bg-[url(src/assets/images/bg-today-large.svg)] h-70 rounded-lg md:h-64 md:flex md:flex-row md:items-center md:justify-center md:text-center md:justify-between'>*/}
+			<div className='background_image h-70 rounded-lg md:h-64 md:flex md:flex-row md:items-center md:justify-center md:text-center md:justify-between'>
 				<div>
 					<h1 className='text-white dm_semibold pt-10 text-2xl'>
 						Berlin, Germany

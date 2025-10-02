@@ -17,6 +17,20 @@ main form input {
 	padding: 12px 20px 12px 40px;
 }
 
+.background_image {
+	background-image: url('./assets/images/bg-today-small.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.background_image {
+		background-image: url('./assets/images/bg-today-large.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
 main form button {
 	background-color: #4658d9;
 }

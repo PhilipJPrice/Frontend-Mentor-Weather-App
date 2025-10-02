@@ -28,6 +28,7 @@ export function HourlyForecast(props) {
 			<div>
 				{props.weatherData.slice(0, 8).map((item, i) => (
 					<HourlyCard
+						key={item.time}
 						icon={overcast}
 						time={item.time.toLocaleTimeString([], {
 							hour: 'numeric',
