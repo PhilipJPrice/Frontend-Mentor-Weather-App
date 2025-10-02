@@ -12,8 +12,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/react-weather-app-incomplete-pL0ZZ0_SmE)
+- [Live Site URL](https://github.com/PhilipJPrice/Frontend-Mentor-Weather-App)
 
 ## My Process
 
