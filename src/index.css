@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+
+body {
+	background-color: #02012c;
+	color: #acacb7;
+}
+
+header button {
+	background-color: #262540;
+}
+
+main form input {
+	background-color: #262540;
+	background-image: url('./assets/images/icon-search.svg');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+}
+
+main form button {
+	background-color: #4658d9;
+}
+
+.sub-cards {
+	background-color: #3c3b5e;
+}
+
+.sub-sub-cards {
+	background-color: #302F4A;
+}
+
+@font-face {
+	font-family: 'Bricolage';
+	src: url('./assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf');
+}
+
+.brico_font {
+	font-family: 'Bricolage', sans-serif;
+}
+
+@font-face {
+	font-family: 'Bricolage-Bold';
+	src: url('./assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf');
+}
+
+.brico_bold {
+	font-family: 'Bricolage-Bold', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM';
+	src: url('./assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf');
+}
+
+.dm_font {
+	font-family: 'DM', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-Italic';
+	src: url('./assets/fonts/DM_Sans/DMSans-Italic-VariableFont_opsz,wght.ttf');
+}
+
+.dm_italic {
+	font-family: 'DM-Italic', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-Medium';
+	src: url('./assets/fonts/DM_Sans/static/DMSans-Medium.ttf');
+}
+
+.dm_medium {
+	font-family: 'DM-Medium', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-SemiBoldItalic';
+	src: url('./assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf');
+}
+
+.dm_semi_italic {
+	font-family: 'DM-SemiBoldItalic', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-Bold';
+	src: url('./assets/fonts/DM_Sans/static/DMSans-Bold.ttf');
+}
+
+.dm_bold {
+	font-family: 'DM-Bold', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-Light';
+	src: url('./assets/fonts/DM_Sans/static/DMSans-Light.ttf');
+}
+
+.dm_light {
+	font-family: 'DM-Light', sans-serif;
+}
+
+@font-face {
+	font-family: 'DM-SemiBold';
+	src: url('./assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf');
+}
+
+.dm_semibold {
+	font-family: 'DM-SemiBold', sans-serif;
+}
