@@ -9,6 +9,8 @@ import fog from '../assets/images/icon-fog.webp'
 import { MainSubCard } from './MainSubCard.jsx'
 
 export function MainDisplay(props) {
+	const icons = { sunny, overcast, partly, rain, snow, storm, drizzle, fog }
+
 	return (
 		<div className='mt-6 px-4 md:col-span-2'>
 		{/*<div className='bg-no-repeat bg-cover bg-[url(src/assets/images/bg-today-small.svg)] md:bg-[url(src/assets/images/bg-today-large.svg)] h-70 rounded-lg md:h-64 md:flex md:flex-row md:items-center md:justify-center md:text-center md:justify-between'>*/}
@@ -20,8 +22,7 @@ export function MainDisplay(props) {
 					<h2 className='text-white dm_font'>{props.current.day}</h2>
 				</div>
 				<div className='flex flex-row items-center text-center justify-center space-x-10 mt-6 md:space-x-2 md:ml-10'>
-					<h1>{props.current.weatherCondition.text}</h1>
-					{/*<img src={null} alt='Weather Icon' className='w-25 h-25' />*/}
+					<img src={icons[props.current.weatherCondition.text]} alt='Weather Icon' className='w-25 h-25' />
 					<h2 className='text-white text-5xl dm_italic font-semibold md:text-4xl'>
 						{props.current.temperature}&deg;
 					</h2>

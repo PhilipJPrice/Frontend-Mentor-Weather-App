@@ -11,8 +11,8 @@ const url = 'https://api.open-meteo.com/v1/forecast'
 
 const weatherCodeMap = {
 	0: { text: 'sunny' },
-	1: { text: 'partly cloudy' },
-	2: { text: 'partly cloudy' },
+	1: { text: 'partly' },
+	2: { text: 'partly' },
 	3: { text: 'overcast' },
 	45: { text: 'fog' },
 	48: { text: 'fog' },
